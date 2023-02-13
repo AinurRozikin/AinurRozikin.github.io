@@ -11,6 +11,8 @@
     <!-- Bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio | Ainur Rozikin</title>
@@ -18,7 +20,7 @@
   <body id="home">
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" shadow-sm >
-      <div class="container">
+      <div class="container" >
         <a class="navbar-brand" href="#">Ainur Rozikin</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,8 +48,8 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/zikin.png" alt="Ainur Rozikin" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="text-center text-dark">Ainur Rozikin</h1>
-      <p class="lead">Front End Developer</p>
+      <h1 class="display-4">Ainur Rozikin</h1>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -68,9 +70,9 @@
           </div>
         </div>
 
-        <div class="row justify-content-center text-center mb-3" fs-5>
-          <div class="col-md-4 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At repudiandae a sequi? Pariatur distinctio amet repudiandae est, molestias non libero!</div>
-          <div class="col-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt minus ducimus provident quasi atque unde dolore saepe qui consectetur labore earum officia, amet sint libero.</div>
+        <div class="row justify-content-center text-center mb-3" fs-5 >
+          <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-duration="1000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At repudiandae a sequi? Pariatur distinctio amet repudiandae est, molestias non libero!</div>
+          <div class="col-md" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt minus ducimus provident quasi atque unde dolore saepe qui consectetur labore earum officia, amet sint libero.</div>
         </div>
       </div>
 
@@ -95,7 +97,7 @@
 
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" >
               <img src="img/Projects/1.jpg" class="card-img-top" alt="satu" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -103,7 +105,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-delay="50">
             <div class="card">
               <img src="img/Projects/2.jpg" class="card-img-top" alt="satu" />
               <div class="card-body">
@@ -113,7 +115,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-delay="100">
               <img src="img/Projects/3.jpg" class="card-img-top" alt="satu" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -122,7 +124,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-delay="150">
               <img src="img/Projects/4.jpg" class="card-img-top" alt="satu" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -131,7 +133,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-delay="200">
               <img src="img/Projects/5.jpg" class="card-img-top" alt="satu" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -150,6 +152,71 @@
     </section>
     <!-- Akhir Projects -->
 
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/1.jpg" alt="Gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/2.jpg" alt="Gambar2" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/3.jpg" alt="Gambar3" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/4.jpg" alt="Gambar4" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/5.jpg" alt="Gambar5" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/6.jpg" alt="Gambar6" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/7.jpg" alt="Gambar7" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/8.jpg" alt="Gambar8" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/9.jpg" alt="Gambar9" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Thumbnail/10.jpg" alt="Gambar10" class="img-fluid gallery-img">
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -213,6 +280,38 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
 
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) => {
+      
+      img.dataset.aos = 'fade-down';
+      img.dataset.aosDelay = i * 100;
+      img.dataset.aosDuration = 1000;
+      })
+
+      AOS.init({
+        once: false,
+        duration: 2000,
+      });
+    </script>
+    <!-- Akhir AOS -->
+    
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Front End Developer' });
+      gsap.from('.jumbotron img', {duration: 1, rotateY:360, opacity: 0 });
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+    </script>
+    <!-- Akhir Gsap -->
+
+    <!-- Google spreedsheet -->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyARAwjenfs4-ti5W9mIGu2l-0quTlbduGdXw7ve5yhQEVb0ompDjEnpwpEbohOE8cI8A/exec'
       const form = document.forms['contact-form']
@@ -240,5 +339,6 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+    <!-- Akhir Google Spreadsheet -->
   </body>
 </html>
